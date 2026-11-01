@@ -38,9 +38,41 @@
     </nav>
 
     <main class="container my-5">
+        <div class="card p-4 shadow-sm mb-4">
+            <h2>Task 2: Visibility Methods</h2>
+            <p id="visParagraph" class="fs-5 p-2 bg-light border rounded">This is a paragraph for testing hide, show, and toggle.</p>
+            <div class="d-flex gap-2">
+                <button id="hideBtn" class="btn btn-danger">Hide</button>
+                <button id="showBtn" class="btn btn-success">Show</button>
+                <button id="toggleBtn" class="btn btn-primary">Toggle</button>
+            </div>
+        </div>
+
+        <div class="card p-4 shadow-sm mb-4">
+            <h2>Task 3: Fade Methods</h2>
+            <div class="my-3">
+                <img id="fadeImg" src="https://picsum.photos/300/180?random=1" alt="Sample" class="rounded shadow-sm">
+            </div>
+            <div class="d-flex gap-2">
+                <button id="fadeOutBtn" class="btn btn-danger">Fade Out</button>
+                <button id="fadeInBtn" class="btn btn-success">Fade In</button>
+                <button id="fadeToggleBtn" class="btn btn-primary">Fade Toggle</button>
+            </div>
+        </div>
+
         <div class="card p-4 shadow-sm">
-            <h2>Part 2: jQuery Effects</h2>
-            <p class="text-muted">Task 2, Task 3, Task 4</p>
+            <h2>Task 4: Slide Methods</h2>
+            <div class="my-3">
+                <div id="slidePanelHeader" class="panel-header">Click to Toggle Panel (Slide)</div>
+                <div id="slidePanelContent" class="panel-content">
+                    This is collapsible content controlled with jQuery slide methods. You can slide it up, down, or toggle.
+                </div>
+            </div>
+            <div class="d-flex gap-2">
+                <button id="slideUpBtn" class="btn btn-danger">Slide Up</button>
+                <button id="slideDownBtn" class="btn btn-success">Slide Down</button>
+                <button id="slideToggleBtn" class="btn btn-primary">Slide Toggle</button>
+            </div>
         </div>
     </main>
 
